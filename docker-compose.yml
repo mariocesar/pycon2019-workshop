@@ -5,6 +5,8 @@ services:
     image: mongo
     volumes:
       - mongodata:/data/db
+    ports:
+      - "27017:27017"
 
   backend:
     image: humanzilla/python:develop
@@ -13,7 +15,8 @@ services:
       - ".:/app"
       - "home:/home/app"
       - "pyenv:/python"
-
+    depends_on:
+      - "mongodb"
     links:
       - "mongodb:mongodb"
 
