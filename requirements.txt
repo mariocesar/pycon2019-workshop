@@ -1,0 +1,4 @@
+aiohttp==3.6.0
+beautifulsoup4==4.8.0
+soupsieve==1.9.3
+motor==2.0.0
