@@ -7,7 +7,7 @@ services:
       - mongodata:/data/db
 
   backend:
-    image: humanzilla/python:latest
+    image: humanzilla/python:develop
     hostname: app
     volumes:
       - ".:/app"
