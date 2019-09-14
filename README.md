@@ -10,7 +10,7 @@ Starting workshop-intro_mongodb_1 ... done
 ===> Python version: Python 3.7.3
 ===> Run permissions check [OK]
 ===> Running: gosu app bash
-app@app:/app$ python --version
-Python 3.7.3
+app@app:/app$ python src/main.py
+Hi 👋🏻
 ```
 
