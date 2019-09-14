@@ -2,6 +2,6 @@
 
 ```
 docker-compose pull
-docker-compose run --rm backend --shell
+docker-compose run --rm backend gosu app bash
 python --version
 ```
